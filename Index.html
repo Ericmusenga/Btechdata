@@ -18,7 +18,7 @@
     <label for="phone">Phone:</label><br>
     <input type="text" id="phone" name="phone" required><br><br>
     <label for="Class">Class:</label><br>
-    <input type="text" id="Class" name="Class" required><br><br>
+    <input type="text" id="dep" name="dep" required><br><br>
 
     <button type="submit">Submit</button>
   </form>
@@ -26,7 +26,7 @@
   <p id="responseMessage"></p>
 
   <script>
-    const scriptURL = "https://script.google.com/macros/s/AKfycbxBiD2HcCZHsim1Q2nX1Qeqip0haqwGyPQWin11_biuSYaxLocoB5Wg2MmlFalRiH8W/exec"; // Replace with your Web App URL
+    const scriptURL = "https://script.google.com/macros/s/AKfycby3NieTx3ivnYwkLsWUeV4RmpP_QJ7-uEkpaqR4PnqTlY6LT8p4bNXQ4SsQCI16nwk/exec"; // Replace with your Web App URL
 
     document.getElementById('dataForm').addEventListener('submit', (e) => {
       e.preventDefault(); // Prevent form submission
